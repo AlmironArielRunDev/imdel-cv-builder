@@ -204,7 +204,7 @@ a{
     color: var(--clr-blue);
 }
 .navbar-brand-icon{
-    width: 25px;
+    width: 40px;
     margin-right: 6px;
     opacity: 0.8;
 }
@@ -313,6 +313,20 @@ a{
 .footer-content p span{
     color: var(--clr-white);
 }
+.footer-logos{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer-logos .footer-logo1{
+    width: 85px;
+}
+.footer-logos .footer-logo2{
+    width: 300px;
+}
 
 /* media queries */
 @media screen and (min-width: 768px){
@@ -344,8 +358,22 @@ a{
 
 
 /* resume page */
+.imdel-head{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.imdel-head img{
+    width: 200px;
+}
+.imdel-head h1{
+    text-align: center;
+}
 #about-sc{
     padding: 64px 0;
+    margin-top: -80px;
 }
 
 .cv-form-row-title{
